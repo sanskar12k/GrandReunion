@@ -1,3 +1,28 @@
 {
+<<<<<<< HEAD
     
 }
+=======
+    "name": "vendor/grandreunion",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Grandreunion\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Umang-IIT",
+            "email": "73515380+Umang-IIT@users.noreply.github.com"
+        }
+    ],
+    "require" : {
+        "silex/silex": "^2.0.4",
+        "monolog/monolog": "^1.22",
+        "twig/twig": "^2.0",
+        "symfony/twig-bridge": "^3"
+      },
+      "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+      }
+}
+>>>>>>> 456218e298afb94e4ddece9c13beb054852b8117
